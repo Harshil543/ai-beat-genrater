@@ -1,3 +1,57 @@
+# Suno Beat Maker
+
+A simple React application that uses the Suno API to generate music beats. Users can select from different beat types and generate corresponding music.
+
+## Prerequisites
+
+1. **Suno API Access**  
+   Sign up and retrieve your API key from the official [Suno API documentation](https://docs.sunoapi.org/).
+
+2. **Environment Variables**  
+   Update the `.env` file in the project root with your Suno API key:
+
+   ```
+   REACT_APP_SUNO_API_KEY=your_suno_api_key_here
+   ```
+
+## Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Update the `.env` file with your Suno API key
+4. Start the development server:
+   ```
+   npm start
+   ```
+
+## Usage
+
+1. Select a beat type from the dropdown menu
+2. Click the "Generate Beat" button to create a new beat
+3. Once generated, the beat will automatically play in the audio player
+
+## Features
+
+- Select from various beat types (hip-hop, trap, lo-fi, electronic, pop)
+- Generate beats using Suno's AI models
+- Play generated beats directly in the browser
+
+## Technologies Used
+
+- React.js
+- Suno API
+- HTML5 Audio
+
+## Next Steps / Improvements
+
+- Add waveform visualizer or visual feedback
+- Save and download generated beats
+- Authentication for premium access
+- Beat customization (tempo, mood, instruments)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,40 @@
+{
+  "code": 200,
+  "data": {
+    "callbackType": "complete",
+    "data": [
+      {
+        "audio_url": "https://apiboxfiles.erweima.ai/MDc4ODdjZWMtNTBkMi00ZjU5LThiNjMtZTgyZWNmZWZhYjQy.mp3",
+        "createTime": 1745262225995,
+        "duration": 212.92,
+        "id": "07887cec-50d2-4f59-8b63-e82ecfefab42",
+        "image_url": "https://apiboxfiles.erweima.ai/MDc4ODdjZWMtNTBkMi00ZjU5LThiNjMtZTgyZWNmZWZhYjQy.jpeg",
+        "model_name": "chirp-v4",
+        "prompt": "",
+        "source_audio_url": "https://cdn1.suno.ai/07887cec-50d2-4f59-8b63-e82ecfefab42.mp3",
+        "source_image_url": "https://cdn2.suno.ai/image_07887cec-50d2-4f59-8b63-e82ecfefab42.jpeg",
+        "source_stream_audio_url": "https://cdn1.suno.ai/07887cec-50d2-4f59-8b63-e82ecfefab42.mp3",
+        "stream_audio_url": "https://mfile.erweima.ai/MDc4ODdjZWMtNTBkMi00ZjU5LThiNjMtZTgyZWNmZWZhYjQy",
+        "tags": "electronic",
+        "title": "Electronic Beat"
+      },
+      {
+        "audio_url": "https://apiboxfiles.erweima.ai/MDg2ZTU2NmEtOGM3NS00YjA3LThiYzctOTk2Mjk4Njg5ZjY2.mp3",
+        "createTime": 1745262225995,
+        "duration": 131.84,
+        "id": "086e566a-8c75-4b07-8bc7-996298689f66",
+        "image_url": "https://apiboxfiles.erweima.ai/MDg2ZTU2NmEtOGM3NS00YjA3LThiYzctOTk2Mjk4Njg5ZjY2.jpeg",
+        "model_name": "chirp-v4",
+        "prompt": "",
+        "source_audio_url": "https://cdn1.suno.ai/086e566a-8c75-4b07-8bc7-996298689f66.mp3",
+        "source_image_url": "https://cdn2.suno.ai/image_086e566a-8c75-4b07-8bc7-996298689f66.jpeg",
+        "source_stream_audio_url": "https://cdn1.suno.ai/086e566a-8c75-4b07-8bc7-996298689f66.mp3",
+        "stream_audio_url": "https://mfile.erweima.ai/MDg2ZTU2NmEtOGM3NS00YjA3LThiYzctOTk2Mjk4Njg5ZjY2",
+        "tags": "electronic",
+        "title": "Electronic Beat"
+      }
+    ],
+    "task_id": "d5397dbd4a469aa2764ae6d959765f8a"
+  },
+  "msg": "All generated successfully."
+} 

@@ -4,7 +4,7 @@
   "description": "Suno Beat Maker with backend callback handling",
   "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "client": "react-scripts start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
