@@ -95,7 +95,7 @@ export const SunoProvider = ({ children }) => {
       setTaskId(newTaskId);
 
       // Step 2: Poll for task status
-      await pollTaskStatus(newTaskId);
+      // await pollTaskStatus(newTaskId);
 
     } catch (err) {
       console.error('Error generating beat:', err);
