@@ -11,7 +11,7 @@ const Player = () => {
     }
     
     if (pollingAttempts <= 1) {
-      return `Task created! Waiting for Suno API to process your ${beatType} beat...`;
+      return `Task created! Waiting for process your ${beatType} beat...`;
     }
     
     return `Checking for beat completion (attempt ${pollingAttempts}/40)...`;
@@ -27,7 +27,7 @@ const Player = () => {
             <p className="task-id">Task ID: {taskId}</p>
             <p className="task-hint">
               {pollingAttempts <= 1 
-                ? "Task has been sent to Suno. Waiting for the webhook callback..." 
+                ? "Task has been sent. Waiting for the webhook callback..." 
                 : "Polling for task completion. This can take several minutes."}
             </p>
             <div className="progress-bar">
@@ -38,7 +38,7 @@ const Player = () => {
             </div>
             <p className="callback-hint">
               <small>
-                The Suno API will send a callback to our webhook when your beat is ready.
+                The API will send a callback to our webhook when your beat is ready.
                 We're checking every 15 seconds to see if the callback has arrived.
               </small>
             </p>
@@ -80,7 +80,7 @@ const Player = () => {
         </p>
         {taskId && <p className="task-id">Task ID: {taskId}</p>}
         <p className="success-note">
-          <small>✓ Beat successfully generated via Suno API webhook!</small>
+          <small>✓ Beat successfully generated</small>
         </p>
       </div>
     </div>
